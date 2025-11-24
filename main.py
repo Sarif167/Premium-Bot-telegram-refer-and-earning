@@ -52,8 +52,8 @@ def send_welcome(message):
 💥 After Joining Click Claim
     """
     markup = InlineKeyboardMarkup()
-    join_channel = InlineKeyboardButton("Join Channel", url="https://t.me/Free_google_play_redeem_code1")
-    join_group = InlineKeyboardButton("Join Group", url="https://t.me/redeem_code_chat")
+    join_channel = InlineKeyboardButton("Join Channel", url="https://t.me/ClipMateBhai")
+    join_group = InlineKeyboardButton("Join Group", url="https://t.me/ClipMateBhai")
     claim = InlineKeyboardButton("Claim", callback_data='claim')
     markup.add(join_channel, join_group)
     markup.add(claim)
