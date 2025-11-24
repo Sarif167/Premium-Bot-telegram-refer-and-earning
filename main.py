@@ -53,7 +53,7 @@ def send_welcome(message):
     """
     markup = InlineKeyboardMarkup()
     join_channel = InlineKeyboardButton("Join Channel", url="https://t.me/ClipMateBhai")
-    join_group = InlineKeyboardButton("Join Group", url="https://t.me/ClipMateBhai")
+    join_group = InlineKeyboardButton("Join Group", url="https://t.me/+ilrEfPOnhUAyMzdl")
     claim = InlineKeyboardButton("Claim", callback_data='claim')
     markup.add(join_channel, join_group)
     markup.add(claim)
